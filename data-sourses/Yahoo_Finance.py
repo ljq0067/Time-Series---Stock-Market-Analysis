@@ -8,8 +8,7 @@ import pandas_datareader.data as web
 import datetime
 
 # stocks of companies will use for analysis
-company = ['DJIA', '^GSPC', 'T', 'F','AAPL', 'MSFT', 'NIO', 'BAC', 'INTC', 'VZ', 'TMUS', 'PFE', 'TSLA', 'GOOG', 'AMZN', 'UBER', 'CSCO', 'BABA', 'C', 'FB', 'JPM', 'TWTR', 'KO', 'PYPL', 'GS', 'MRNA', 'NFLX', 'ZM']
-
+company = ['^DJI', '^GSPC', 'T', 'F','AAPL', 'MSFT', 'NIO', 'BAC', 'INTC', 'VZ', 'TMUS', 'PFE', 'TSLA', 'GOOG', 'AMZN', 'UBER', 'CSCO', 'BABA', 'C', 'FB', 'JPM', 'TWTR', 'KO', 'PYPL', 'GS', 'MRNA', 'NFLX', 'ZM']
 # Set up End and Start times for data grab
 end = datetime.date.today()
 start = datetime.datetime(2016, 1, 1)
